@@ -1,7 +1,11 @@
+import { Box } from "@mui/material"
+import ShopCard from "../shop/ShopCard"
 
 const UserHome = () => {
   return (
-    <div>UserHome</div>
+    <Box>
+        <ShopCard/>
+    </Box>
   )
 }
 
